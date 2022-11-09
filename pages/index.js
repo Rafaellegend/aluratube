@@ -1,103 +1,36 @@
 import config from "../config.json";
-import styled from "styled-components";
 import { CSSReset } from "../src/components/CSSReset";
 import Menu from "../src/components/Menu"
-import {StyledTimeline} from "../src/components/Timeline"
+import Timeline from "../src/components/Timeline"
+import Header from "../src/components/Header"
+import Favorites from "../src/components/Favorites"
+import React from "react";
 
 function HomePage() {
-    const estiloDaHomePage = {
-        //backgroundColor: "red"
-    };
-
     //console.log(config.playlists)
+    const [filterValue, setFilterValue] = React.useState("");
+
     return (
         <>
-    	    <CSSReset/>
+            <CSSReset />
             <div style={{
                 display: "flex",
                 flexDirection: "column",
                 flex: 1,
                 // backgroundColor: "red",
             }}>
-            <Menu /> 
-            <Header/> 
-            <Timeline playlists={config.playlists}>Conteúdo</Timeline> 
+                <Menu filterValue={filterValue} setFilterValue={setFilterValue} />
+                <Header/>
+                <Timeline searchValue={filterValue} playlists={config.playlists}>Conteúdo</Timeline>
+                <Favorites favorites={config.favorites}></Favorites>
             </div>
         </>
-        
-    )
-  }
-  
-  export default HomePage
 
-  /*function Menu(){
-    return (
-        <div>
-            Menu
-        </div>
     )
-  }*/
+}
 
-  const StyledHeader = styled.div`
-    img {
-        width: 80px;
-        height: 80px;
-        border-radius: 50%;
-    }
-    .user-info{
-        margin-top: 50px;
-        display: flex;
-        align-items: center;
-        width: 100%;
-        padding: 16px 32px;
-        gap:16px;
-    }
-  `;
-  function Header(){
-    return (
-        <StyledHeader>
-            {/* <img src="banner"/> */}
-            <section className="user-info">
-                <img src={`https://github.com/${config.github}.png`}/>
-                <div>
-                    <h2>
-                        {config.name}
-                    </h2>
-                    <p>
-                        {config.job}
-                    </p>
-                </div>
-            </section>
-        </StyledHeader>
-    )
-  }
+export default HomePage
 
-//No React sempre é utilizado map() ao invés de forEach()
-  function Timeline(props){
-    console.log("Dentro do componete", props.playlists);
-    const playlistsName = Object.keys(props.playlists);
-    return (
-        <StyledTimeline>
-            {playlistsName.map ((playlistsName) => {
-                const videos = props.playlists[playlistsName];
-                return (
-                    <section>
-                        <h2>{playlistsName}</h2>
-                        <div>
-                        {videos.map((video) => {
-                            return (
-                                <a href={video.url}>
-                                    <img src={video.thumb}></img>
-                                    <span>
-                                        {video.title}
-                                    </span>
-                                </a>
-                            )
-                        })}
-                        </div>
-                    </section>
-                )
-            })}
-        </StyledTimeline>
-    )
-  }
+
+
+

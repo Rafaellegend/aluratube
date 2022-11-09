@@ -1,38 +1,39 @@
 {
+    "bg":"https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
     "name": "Rafael de Jesus",
     "job": "Estudante",
     "github": "Rafaellegend",
     "playlists": {
         "jogos": [
             {
-                "title": "Persona 5 Royal - Finish ‘Em Trailer - Nintendo Switch",
-                "url": "https://www.youtube.com/watch?v=N7KopQi79UM",
-                "thumb": "https://i.ytimg.com/vi/N7KopQi79UM/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBSJikJToePYzgLsV34SYgETq-QoA"
+                "title": "Tormenta20 - Mesa Especial com os Autores!",
+                "url": "https://www.youtube.com/watch?v=2FivNRWGfbs",
+                "thumb": "https://i.ytimg.com/vi/2FivNRWGfbs/hqdefault.jpg"
             },
             {
-                "title": "Cult of the Lamb - Blood Moon Festival Trailer - Nintendo Switch",
-                "url": "https://www.youtube.com/watch?v=dmy0ymvzAb0",
-                "thumb": "https://i.ytimg.com/vi/dmy0ymvzAb0/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBHi4aNMpC58RPRi_418wJcj8LY9g"
+                "title": "The Witcher: Ascensão dos Reinos - Episódio 01 - Abominações",
+                "url": "https://www.youtube.com/watch?v=tNsaQnTWkYo&t=1833s",
+                "thumb": "https://i.ytimg.com/vi/tNsaQnTWkYo/hq720.jpg"
             },
             {
-                "title": "Persona 5 Royal - Finish ‘Em Trailer - Nintendo Switch",
-                "url": "https://www.youtube.com/watch?v=N7KopQi79UM",
-                "thumb": "https://i.ytimg.com/vi/N7KopQi79UM/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBSJikJToePYzgLsV34SYgETq-QoA"
+                "title": "Alheios - Episódio 1 - SINAIS DO OUTRO LADO RPG",
+                "url": "https://www.youtube.com/watch?v=k5y48mQTdpE",
+                "thumb": "https://i.ytimg.com/vi/k5y48mQTdpE/hq720.jpg"
             },
             {
-                "title": "Cult of the Lamb - Blood Moon Festival Trailer - Nintendo Switch",
-                "url": "https://www.youtube.com/watch?v=dmy0ymvzAb0",
-                "thumb": "https://i.ytimg.com/vi/dmy0ymvzAb0/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBHi4aNMpC58RPRi_418wJcj8LY9g"
+                "title": "Areias do Tempo | #CodinomeAmpulheta Ep.01 | RPG DE MESA PRESENCIAL | Skyfall RPG",
+                "url": "https://www.youtube.com/watch?v=UpkVeUmOGFU&t=1037s",
+                "thumb": "https://i.ytimg.com/vi/UpkVeUmOGFU/hqdefault.jpg"
             },
             {
-                "title": "Persona 5 Royal - Finish ‘Em Trailer - Nintendo Switch",
-                "url": "https://www.youtube.com/watch?v=N7KopQi79UM",
-                "thumb": "https://i.ytimg.com/vi/N7KopQi79UM/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBSJikJToePYzgLsV34SYgETq-QoA"
+                "title": "DARK SOULS RPG: ARAUTOS DA ESCURIDÃO | EP 1 - TOCA DO TEXUGO ",
+                "url": "https://www.youtube.com/watch?v=qEZPtoH7YSc",
+                "thumb": "https://i.ytimg.com/vi/qEZPtoH7YSc/hq720.jpg"
             },
             {
-                "title": "Cult of the Lamb - Blood Moon Festival Trailer - Nintendo Switch",
-                "url": "https://www.youtube.com/watch?v=dmy0ymvzAb0",
-                "thumb": "https://i.ytimg.com/vi/dmy0ymvzAb0/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBHi4aNMpC58RPRi_418wJcj8LY9g"
+                "title": "ELDEN RING - Especial RPG | Episódio 01",
+                "url": "https://www.youtube.com/watch?v=eWi05bcurGg",
+                "thumb": "https://i.ytimg.com/vi/eWi05bcurGg/hq720.jpg"
             },
             {
                 "title": "Persona 5 Royal - Finish ‘Em Trailer - Nintendo Switch",
@@ -45,21 +46,21 @@
                 "thumb": "https://i.ytimg.com/vi/dmy0ymvzAb0/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBHi4aNMpC58RPRi_418wJcj8LY9g"
             }
         ],
-        "front-end": [
+        "softwares VTT": [
             {
-                "title": "Curso de Git e Github COMPLETO 2021 [Iniciantes] + Desafios + Muita Prática",
-                "url": "https://www.youtube.com/watch?v=kB5e-gTAl_s&t=1920s",
-                "thumb": "https://i.ytimg.com/vi/kB5e-gTAl_s/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCKv4sCoUyGoq4DGxvNt87w1b1iWg"
+                "title": "Criar Animações com Paralaxe - Tile Scroll",
+                "url": "https://www.youtube.com/watch?v=3I4Nb54yDCg",
+                "thumb": "https://i.ytimg.com/vi/3I4Nb54yDCg/hqdefault.jpg"
             },
             {
-                "title": "Curso de Git e Github COMPLETO 2021 [Iniciantes] + Desafios + Muita Prática",
-                "url": "https://www.youtube.com/watch?v=kB5e-gTAl_s&t=1920s",
-                "thumb": "https://i.ytimg.com/vi/kB5e-gTAl_s/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCKv4sCoUyGoq4DGxvNt87w1b1iWg"
+                "title": "Foundry VTT Module Tutorial - Everything New with Levels Module for Foundry v10",
+                "url": "https://www.youtube.com/watch?v=xmGxEkmJblE",
+                "thumb": "https://i.ytimg.com/vi/xmGxEkmJblE/hqdefault.jpg"
             },
             {
-                "title": "Curso de Git e Github COMPLETO 2021 [Iniciantes] + Desafios + Muita Prática",
-                "url": "https://www.youtube.com/watch?v=kB5e-gTAl_s&t=1920s",
-                "thumb": "https://i.ytimg.com/vi/kB5e-gTAl_s/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCKv4sCoUyGoq4DGxvNt87w1b1iWg"
+                "title": "Module Tutorial: MidiQOL Part 1. Ultimate Combat Automation in Foundry VTT (dnd5e)",
+                "url": "https://www.youtube.com/watch?v=0ImgwRlGyV4&t=619s",
+                "thumb": "https://i.ytimg.com/vi/0ImgwRlGyV4/hqdefault.jpg"
             },
             {
                 "title": "Curso de Git e Github COMPLETO 2021 [Iniciantes] + Desafios + Muita Prática",
@@ -67,5 +68,17 @@
                 "thumb": "https://i.ytimg.com/vi/kB5e-gTAl_s/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCKv4sCoUyGoq4DGxvNt87w1b1iWg"
             }
         ]
-    }
+    },
+    "favorites":[ 
+        {
+            "name": "@Alura",
+            "img":"https://yt3.ggpht.com/xqhIoXspeX7eqouJvNHl1xqpv9213Pl26ENZbuouXxO2RlDadjsveNXfgnj8GTUk7thFYUkVRg=s88-c-k-c0x00ffffff-no-rj",
+            "url": "https://twitter.com/AluraOnline"
+        },
+        {
+            "name": "Alura Cursos Online",
+            "img":"https://yt3.ggpht.com/xqhIoXspeX7eqouJvNHl1xqpv9213Pl26ENZbuouXxO2RlDadjsveNXfgnj8GTUk7thFYUkVRg=s88-c-k-c0x00ffffff-no-rj",
+            "url": "https://www.youtube.com/c/Alura"
+        }
+    ]
 }
