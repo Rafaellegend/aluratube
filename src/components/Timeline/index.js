@@ -52,7 +52,9 @@ export default function Timeline({ searchValue, ...props }) {
   return (
       <StyledTimeline>
           {playlistsName.map((playlistsName) => {
+
               const videos = props.playlists[playlistsName];
+              console.log(playlistsName);
               return (
                   <section key={playlistsName}>
                       <h2>{playlistsName}</h2>
