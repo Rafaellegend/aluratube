@@ -12,12 +12,13 @@ function HomePage() {
     const service = videoService();
     const [filterValue, setFilterValue] = React.useState("");
     const [playlists, setPlaylists] = React.useState({});
+    const [favs, setFavs] = React.useState({});
 
     React.useEffect(() =>{
         service
             .getAllVideos("videos", "*")
             .then((dados) => {
-                console.log(dados.data);
+                console.log("videos:",dados.data);
                 const newPlaylists = {...playlists};
                 dados.data.forEach((videos)=>{
                     if(!newPlaylists[videos.playlist]) newPlaylists[videos.playlist] =[];
@@ -27,6 +28,14 @@ function HomePage() {
                 })
                 setPlaylists(newPlaylists);
             });
+        service
+            .getAllVideos("favorito","*")
+            .then((dados) => {
+                console.log("favoritos:",dados.data)
+                const newFavs = {...favs};
+                setFavs(dados.data);
+                console.log(newFavs)
+            })
     }, [])
 
     return (
@@ -41,7 +50,7 @@ function HomePage() {
                 <Menu filterValue={filterValue} setFilterValue={setFilterValue} />
                 <Header/>
                 <Timeline searchValue={filterValue} playlists={playlists}>Conteúdo</Timeline>
-                <Favorites favorites={config.favorites}></Favorites>
+                <Favorites favorites={favs}></Favorites>
             </div>
         </>
 

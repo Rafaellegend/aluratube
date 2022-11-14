@@ -1,6 +1,52 @@
 import styled from "styled-components";
 
-export const StyledRegisterVideo = styled.div`
+export const StyledFavorites = styled.div`
+
+section {
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+    padding: 16px;
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: repeat(auto-fill,minmax(100px,1fr));
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(200px,1fr);
+}
+h2 {
+    font-size: 16px;
+    padding-left:30px;
+    text-transform: capitalize;
+    color: ${({ theme }) => theme.textColorBase || "#222222"};
+    
+}
+.favsicons {
+    display: grid;
+    max-width:100px;
+    text-align: center;
+    img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
+    span {
+        text-overflow:ellipsis;
+        color: ${({ theme }) => theme.textColorBase || "#222222"};
+    }
+    
+}
+.addingfav {
+        margin-left: 5px;
+        border-radius: 100%;
+        border: 1px solid ${({ theme }) => theme.borderBase || "#e5e5e5"};
+        width:20px;
+        height: 20px;
+        background-color: ${({ theme }) => theme.textColorBase || "#222222"};
+        color: ${({ theme }) => theme.backgroundLevel1 || "#FFFFFF"};
+    }
+`;
+
+export const StyledRegisterFav = styled.div`
   .add-video {
     width: 50px;
     height: 50px;
@@ -67,18 +113,8 @@ export const StyledRegisterVideo = styled.div`
     color: ${({ theme }) => theme.textColorBase};
     background-color: ${({ theme }) => theme.backgroundBase};
   }
-  select {
-    border-radius: 2px;
-    border: 1px solid ${({ theme }) => theme.borderBase};
-    padding: 8px 10px;
-    margin-bottom: 10px;
-    outline: none;
-    color: #222222;
-    background-color: #f9f9f9;
-    color: ${({ theme }) => theme.textColorBase};
-    background-color: ${({ theme }) => theme.backgroundBase};
-  }
-  .vidpreview{
+
+  .favpreview{
     padding: auto;
     display: flexbox;
     margin: 10px auto;
@@ -93,17 +129,12 @@ export const StyledRegisterVideo = styled.div`
       flex-direction: column;
       position: relative;
       padding: 16px;
-      padding-top: 10px;
+      padding-top: 40px;
       text-align: center;
       img{
-        aspect-ratio: 16/9;
-        font-weight: 500;
-        object-fit: cover;
-        width: 100%;
-        max-width: 210px;
-        height: auto;
-        border-radius: 5%;
-        border-radius: 5%;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
         border: 1px solid ${({ theme }) => theme.borderBase}
       }
       p{
@@ -111,5 +142,4 @@ export const StyledRegisterVideo = styled.div`
         color: ${({ theme }) => theme.textColorBase || "#222222"};
       }
   }
-
 `;
