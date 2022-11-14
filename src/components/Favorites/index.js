@@ -27,7 +27,7 @@ const supabase = createClient(PROJECT_URL,PUBLIC_KEY);
 
 export default function Favorites(props) {
     const formCadastro = useForm({
-        initialValues:{ nome: "Nome do Canal", url: "https://youtube.com/", pic: "Foto de perfil" }
+        initialValues:{ nome: "Nome do Canal", url: "url do video", pic: "Foto de perfil" }
     });
     //console.log("Dentro do componente", props.favorites)
     const favoritesList = Object.keys(props.favorites);
@@ -71,8 +71,8 @@ export default function Favorites(props) {
                         .catch((err) => {
                             console.log(err);
                         })
-                    }
-                    }>
+                        formCadastro.clearForm();
+                    }}>
                         <div>
                             <button className="close-modal" onClick={() => setFormVisible(false)}>
                                 X
